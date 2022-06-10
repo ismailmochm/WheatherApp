@@ -9,4 +9,11 @@
     <string name="masukan_nama_kota">Masukan Nama Kota</string>
     <string name="kota">Kota</string>
     <string name="submit">Submit</string>
+    <string name="hallo">Hallo,</string>
+    <string name="text">text</string>
+    <string name="subtext">subtext</string>
+    <string name="cloudiness">Cloudiness</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="wind">Wind</string>
 </resources>

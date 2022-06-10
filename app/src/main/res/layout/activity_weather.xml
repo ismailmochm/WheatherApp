@@ -28,7 +28,7 @@
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/roboto_medium"
-                android:text="Hallo, "
+                android:text="@string/hallo"
                 android:textColor="@color/blueWhite"
                 android:textSize="16sp" />
 
@@ -52,7 +52,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/roboto_medium"
-                        android:text="text"
+                        android:text="@string/text"
                         android:textColor="@color/white"
                         android:textSize="16sp" />
 
@@ -62,7 +62,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="3dp"
                         android:fontFamily="@font/roboto_medium"
-                        android:text="subtext"
+                        android:text="@string/subtext"
                         android:textColor="@color/white"
                         android:textSize="14sp" />
                 </LinearLayout>
@@ -70,7 +70,8 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
                     <TextView
                         android:id="@+id/weather"
                         android:layout_width="match_parent"
@@ -78,7 +79,7 @@
                         android:layout_marginTop="3dp"
                         android:layout_marginEnd="10dp"
                         android:fontFamily="@font/roboto_medium"
-                        android:text="text"
+                        android:text="@string/text"
                         android:layout_marginBottom="5dp"
                         android:textColor="@color/white"
                         android:textSize="14sp" />
@@ -123,7 +124,7 @@
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/roboto_medium"
                     android:gravity="center"
-                    android:text="text"
+                    android:text="@string/text"
                     android:textColor="@color/white"
                     android:textSize="14sp" />
 
@@ -136,7 +137,7 @@
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/roboto_medium"
                     android:gravity="center"
-                    android:text="Humidity"
+                    android:text="@string/humidity"
                     android:textColor="@color/white"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -155,7 +156,7 @@
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/roboto_medium"
                     android:gravity="center"
-                    android:text="text"
+                    android:text="@string/text"
                     android:textColor="@color/white"
                     android:textSize="14sp" />
 
@@ -168,7 +169,7 @@
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/roboto_medium"
                     android:gravity="center"
-                    android:text="Pressure"
+                    android:text="@string/pressure"
                     android:textColor="@color/white"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -187,7 +188,7 @@
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/roboto_medium"
                     android:gravity="center"
-                    android:text="text"
+                    android:text="@string/text"
                     android:textColor="@color/white"
                     android:textSize="14sp" />
 
@@ -200,7 +201,7 @@
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/roboto_medium"
                     android:gravity="center"
-                    android:text="Cloudiness"
+                    android:text="@string/cloudiness"
                     android:textColor="@color/white"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -219,7 +220,7 @@
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/roboto_medium"
                     android:gravity="center"
-                    android:text="text"
+                    android:text="@string/text"
                     android:textColor="@color/white"
                     android:textSize="14sp" />
 
@@ -232,7 +233,7 @@
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/roboto_medium"
                     android:gravity="center"
-                    android:text="Wind"
+                    android:text="@string/wind"
                     android:textColor="@color/white"
                     android:textSize="14sp" />
             </LinearLayout>
