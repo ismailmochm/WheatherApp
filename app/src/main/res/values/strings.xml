@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="bintang">*</string>
+    <string name="masukan_nama_lengkap">Masukan Nama Lengkap</string>
+    <string name="pilih_provinsi">Pilih Provinsi</string>
+    <string name="provinsi">Provinsi</string>
+    <string name="masukan_nama_provinsi">Masukan Nama Provinsi</string>
+    <string name="masukan_nama_kota">Masukan Nama Kota</string>
+    <string name="kota">Kota</string>
+    <string name="submit">Submit</string>
+</resources>
